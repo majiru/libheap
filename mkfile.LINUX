@@ -1,0 +1,13 @@
+<$PLAN9/src/mkhdr
+
+LIB=libheap.a
+
+OFILES=\
+	heap.$O\
+
+HFILES=\
+	$PLAN9/include/heap.h\
+
+<$PLAN9/src/mksyslib
+
+

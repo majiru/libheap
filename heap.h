@@ -3,6 +3,12 @@
 * Port: Jacob Moody
 */
 
+#ifndef _HEAP_H_
+#define _HEAP_H_ 1
+#if defined(__cplusplus)
+extern "C" {
+#endif
+
 AUTOLIB(heap)
 #pragma lib "libheap.a"
 typedef struct HeapNode HeapNode;
@@ -34,3 +40,7 @@ int heap_combine(Heap *h, Heap *h1, Heap *h2);
 int heap_decrease_key(Heap *h, HeapNode *n, void *v);
 int heap_decrease_key_no_replace(Heap *h, HeapNode *n);
 
+#if defined(__cplusplus)
+}
+#endif
+#endif

@@ -2,7 +2,7 @@
 
 P=heap
 
-LIB=lib$P.$O.a
+LIB=/$objtype/lib/lib$P.a
 OFILES=$P.$O
 HFILES=/sys/include/$P.h
 

@@ -1,2 +1,1 @@
-CONF=LINUX
 <./mkfile.$CONF
